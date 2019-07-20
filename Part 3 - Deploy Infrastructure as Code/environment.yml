@@ -20,7 +20,6 @@ Parameters:
     PrivateSubnet2Cidr:
         Type: String
         Default: 10.0.3.0/24
-        
 Resources:
     VPC:
         Type: AWS::EC2::VPC
